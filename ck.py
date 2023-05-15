@@ -117,7 +117,7 @@ id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replac
 plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
-bumper = "JISAN-XD=="+id+bxd+xp
+bumper = "HAMIM=="+id+bxd+xp
 myweb2 = requests.get("https://github.com/X1X4D-2-0/CONTROL/blob/main/CONTROL.txt").text
 logo = ("""
 \033[1;32m╔═════════════════════════════════════════════════════╗
@@ -161,13 +161,13 @@ def qsbuy():
                         os.system("clear");print(logo)
                         print(f"Your Device License Key Is Not Approved")
                         print(50*"-")
-                        #print(f"Key : {JISAN-XD}")
+                        print(f"Key : {HAMIM}")
                         print(50*"-")
                         print(f" 15-Days Price : 100")
                         print(f" 1-Month Price : 150")
                         print(50*"-")
                         input("[Press Enter To Send Key To Admin]")
-                        os.system(f"termux-open-url https://wa.me/+8801814649133?text={JISAN-XD}")
+                        os.system(f"termux-open-url https://wa.me/+8801814649133?text={HAMIM}")
                         qsbuy()
         except requests.exceptions.ConnectionError:
                 exit(' No internet connection ..')
