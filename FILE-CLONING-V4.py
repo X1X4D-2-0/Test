@@ -235,7 +235,7 @@ class __xyz__:
                 session=requests.Session()
 headers = { 'authority': 'mbasic.facebook.com',
             "method": 'GET',
-            "scheme": 'https
+            "scheme": 'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
@@ -266,7 +266,7 @@ headers = { 'authority': 'mbasic.facebook.com',
                 }
 headers = { 'authority': 'mbasic.facebook.com',
             "method": 'GET',
-            "scheme": 'https
+            "scheme": 'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
