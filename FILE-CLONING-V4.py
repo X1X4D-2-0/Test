@@ -137,7 +137,7 @@ def reg():
         print ('\tApproved Not Detected')
         print ('')
         print (' \033[1;97mToken: ' + to)
-        print(' Facebook : It'z Jisan Xhowdhury ')
+        print(' Facebook : Itz Jisan Xhowdhury ')
         input('\033[1;97m Press Enter To Get Approval \033[1;92m(FOR FREE)')
         os.system("xdg-open https://www.facebook.com/TurRealabbu1")
         reg()
