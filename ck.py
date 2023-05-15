@@ -161,7 +161,7 @@ def qsbuy():
                         os.system("clear");print(logo)
                         print(f"Your Device License Key Is Not Approved")
                         print(50*"-")
-                        print(f"Key : {JISAN-XD}")
+                        #print(f"Key : {JISAN-XD}")
                         print(50*"-")
                         print(f" 15-Days Price : 100")
                         print(f" 1-Month Price : 150")
