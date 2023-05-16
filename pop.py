@@ -144,21 +144,10 @@ logo = ("""
 
 def qsbuy():
         try:
-                os.system('clear')
-                print(logo)
-                x = requests.get("https://github.com/X1X4D-2-0/CONTROL/blob/main/CONTROL.txt").text
                 if str("upppdate") in update:
                         os.system('clear')
-                        exit('script is in update / maintanance be patient ')
-                elif str("res-sseett") in update:
-                        os.system('')
-                        os.system('')
-                        os.system('')
-                        exit('Dont Try To Bypass')
-                elif bumper in myweb2:
-                        main()
                 else:
-                        qsbuy()
+                        main()
         except requests.exceptions.ConnectionError:
                 exit(' No internet connection ..')
 
