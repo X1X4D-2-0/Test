@@ -112,7 +112,7 @@ class jalan:
             sys.stdout.flush()
             time.sleep(0.001)
 update = requests.get("https://github.com/X1X4D-2-0/CONTROL/blob/main/CONTROL.txt").text
-uuidd = str(os.getuid()) + str(os.getlogin()) + str(os.getuid())
+uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
 id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
 plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
@@ -144,10 +144,8 @@ logo = ("""
 
 def qsbuy():
         try:
-                if str("upppdate") in update:
-                        os.system('clear')
-                else:
-                        main()
+            
+            main()
         except requests.exceptions.ConnectionError:
                 exit(' No internet connection ..')
 
@@ -273,7 +271,7 @@ def emailbal():
     user=[]
     twf =[]
     os.getuid
-    os.geteuid
+    os.getuid
     os.system("clear")
     jalan(logo)
     jalan(" тХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХРтХР")
@@ -328,7 +326,7 @@ def pak():
     user=[]
     twf =[]
     os.getuid
-    os.geteuid
+    os.getuid
     os.system("clear")
     jalan(logo)
     jalan(f' [{xr}^{x}] Example>: {xr}92318,92345,92323,92306.ETC{x}')
@@ -375,7 +373,7 @@ def FIRE():
     user=[]
     twf =[]
     os.getuid
-    os.geteuid
+    os.getuid
     os.system("clear")
     print(logo)
     xd="\033[1;92m="
